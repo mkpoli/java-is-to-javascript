@@ -2,6 +2,8 @@
 
 This is a website that lists things that are just like the different between Java and JavaScript in world's languages.
 
+![screenshot](./static/screenshot.png)
+
 ## License
 
 This project is licensed under the following terms[^3]:
