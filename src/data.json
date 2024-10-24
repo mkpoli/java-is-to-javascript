@@ -1,6 +1,6 @@
 [
   {
-    "language": "English",
+    "language": "en",
     "items": [
       {
         "java": "ham",
@@ -73,7 +73,7 @@
     ]
   },
   {
-    "language": "Chinese",
+    "language": "zh",
     "items": [
       {
         "java": "雷锋",
@@ -290,7 +290,7 @@
     ]
   },
   {
-    "language": "Japanese",
+    "language": "ja",
     "items": [
       {
         "java": "インド",
