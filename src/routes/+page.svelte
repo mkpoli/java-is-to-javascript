@@ -2,8 +2,40 @@
   import DATA from '../data.json';
 </script>
 
+<svelte:head>
+  <title>Java is to JavaScript as X is to Y</title>
+  <meta
+    name="description"
+    content="This is a list of things that are just like the different between Java and JavaScript in world's languages."
+  />
+  <meta name="author" content="mkpoli" />
+  <meta name="robots" content="index, follow" />
+
+  <meta name="og:title" content="Java is to JavaScript as X is to Y" />
+  <meta
+    name="og:description"
+    content="This is a list of things that are just like the different between Java and JavaScript in world's languages."
+  />
+  <meta name="og:author" content="mkpoli" />
+  <meta name="og:url" content="https://js.mkpo.li" />
+  <meta name="og:image" content="https://js.mkpo.li/screenshot.png" />
+  <meta name="og:type" content="website" />
+  <meta name="og:site_name" content="Java is to JavaScript as X is to Y" />
+  <meta name="og:locale" content="en_US" />
+  <meta name="og:image:alt" content="Java is to JavaScript as X is to Y" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="@mkpoli" />
+  <meta name="twitter:title" content="Java is to JavaScript as X is to Y" />
+  <meta
+    name="twitter:description"
+    content="This is a list of things that are just like the different between Java and JavaScript in world's languages."
+  />
+  <meta name="twitter:image" content="https://js.mkpo.li/screenshot.png" />
+</svelte:head>
+
 <main class="max-w-screen-md mx-auto text-center">
-  <h1 class="text-2xl font-bold my-4">Java is to JavaScript as X is to Y...</h1>
+  <h1 class="text-2xl font-bold my-4">Java is to JavaScript as X is to Y</h1>
 
   <a class="text-blue-500 hover:underline" href="http://javascriptisnotjava.com/">JavaScript is not Java.</a>
 
