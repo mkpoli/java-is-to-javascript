@@ -14,9 +14,13 @@
   {#each DATA as item}
     <section class="my-4">
       <h2 class="text-xl font-bold">{item.language}</h2>
-      <ul>
+      <ul class="grid grid-cols-[1fr_auto_1fr] gap-x-2">
         {#each item.items as i}
-          <li class="list-item">{i.java} 🆚 {i.javascript}</li>
+          <li class="contents">
+            <span class="text-right">{i.java}</span>
+            <span>🆚</span>
+            <span class="text-left">{i.javascript}</span>
+          </li>
         {/each}
       </ul>
     </section>
