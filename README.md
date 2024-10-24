@@ -1,6 +1,6 @@
 # Java is to JavaScript as X is to Y
 
-This is a website that lists things that are just like the different between Java and JavaScript in world's languages.
+This is a website that lists things that are just like the different between Java and JavaScript in world's languages. A working version is available at [js.mkpo.li](https://js.mkpo.li).
 
 ![screenshot](./static/screenshot.png)
 
