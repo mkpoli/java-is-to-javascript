@@ -313,6 +313,10 @@
         "javascript": "ランドクルーザー"
       },
       {
+        "java": "グレープ",
+        "javascript": "グレープフルーツ"
+      },
+      {
         "java": "バス",
         "javascript": "バスケット"
       },
@@ -331,6 +335,58 @@
       {
         "java": "焼きそば",
         "javascript": "カップ焼きそば"
+      },
+      {
+        "java": "岡山",
+        "javascript": "大岡山"
+      },
+      {
+        "java": "浜松",
+        "javascript": "浜松町"
+      },
+      {
+        "java": "鰻",
+        "javascript": "うなじろう"
+      },
+      {
+        "java": "ヒト",
+        "javascript": "ヒトデ"
+      },
+      {
+        "java": "調布",
+        "javascript": "田園調布"
+      },
+      {
+        "java": "東大",
+        "javascript": "東工大"
+      },
+      {
+        "java": "オーストリア",
+        "javascript": "オーストラリア"
+      },
+      {
+        "java": "クラゲ",
+        "javascript": "キクラゲ"
+      },
+      {
+        "java": "三菱",
+        "javascript": "三菱鉛筆"
+      },
+      {
+        "java": "コーヒー",
+        "javascript": "タンポポコーヒー"
+      },
+      {
+        "java": "加藤あい",
+        "javascript": "阿藤快"
+      },
+      {
+        "java": "カニ",
+        "javascript": "カニカマ"
+      },
+      {
+        "java": "アンパン",
+        "javascript": "アンパンマン"
       }
     ]
   }
