@@ -57,8 +57,17 @@
       </ul>
     </section>
   {/each}
-</main>
 
+  <h2 class="text-xl font-bold my-4">Add new entry/language</h2>
+  <p class="my-4 max-w-md mx-auto">
+    If you know an entry that is not in the list, please help us to add it by <a
+      class="text-blue-500 hover:underline"
+      href="https://github.com/mkpoli/java-is-to-javascript/blob/main/CONTRIBUTING.md"
+      target="_blank">contributing to the project</a
+    >.
+  </p>
+</main>
+<hr />
 <footer class="text-center my-4">
   <p>
     All data in this project is licensed under <a
