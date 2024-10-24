@@ -22,3 +22,22 @@
     </section>
   {/each}
 </main>
+
+<footer class="text-center my-4">
+  <p>
+    All data in this project is licensed under <a
+      href="https://creativecommons.org/publicdomain/zero/1.0/legalcode"
+      target="_blank">CC0 1.0 Universal License</a
+    >
+    (CC0-1.0).
+  </p>
+  <p>
+    The source code of the website is licensed under <a href="https://opensource.org/license/0bsd" target="_blank"
+      >Zero-Clause BSD License</a
+    >
+    (0BSD).
+  </p>
+  <p>
+    Copyright &copy; 2024 <a href="https://mkpo.li/" target="_blank">mkpoli</a>.
+  </p>
+</footer>
