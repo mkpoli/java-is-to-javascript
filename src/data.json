@@ -9,6 +9,18 @@
       {
         "java": "Car",
         "javascript": "Carpet"
+      },
+      {
+        "java": "Cat",
+        "javascript": "Catfish"
+      },
+      {
+        "java": "Water",
+        "javascript": "Watermelon"
+      },
+      {
+        "java": "Ass",
+        "javascript": "Assassin"
       }
     ]
   },
@@ -31,6 +43,38 @@
       {
         "java": "ハム",
         "javascript": "ハムスター"
+      },
+      {
+        "java": "メロン",
+        "javascript": "メロンパン"
+      },
+      {
+        "java": "クラウド",
+        "javascript": "クラウドソーシング"
+      },
+      {
+        "java": "クルーザー",
+        "javascript": "ランドクルーザー"
+      },
+      {
+        "java": "バス",
+        "javascript": "バスケット"
+      },
+      {
+        "java": "バスケット",
+        "javascript": "バスケットボール"
+      },
+      {
+        "java": "椅子",
+        "javascript": "電気椅子"
+      },
+      {
+        "java": "ウィンナー",
+        "javascript": "ウィンナーコーヒー"
+      },
+      {
+        "java": "焼きそば",
+        "javascript": "カップ焼きそば"
       }
     ]
   }
