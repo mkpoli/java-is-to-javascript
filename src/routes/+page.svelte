@@ -79,4 +79,9 @@
   <p>
     Copyright &copy; 2024 <a class="text-blue-500 hover:underline" href="https://mkpo.li/" target="_blank">mkpoli</a>.
   </p>
+  <p>
+    <a class="text-blue-500 hover:underline" href="https://github.com/mkpoli/java-is-to-javascript" target="_blank"
+      >Source Code at GitHub</a
+    >
+  </p>
 </footer>
