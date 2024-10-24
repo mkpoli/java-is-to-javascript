@@ -35,7 +35,7 @@
 </svelte:head>
 
 <main class="max-w-screen-md mx-auto text-center">
-  <h1 class="text-2xl font-bold my-4">Java is to JavaScript as X is to Y</h1>
+  <h1 class="text-2xl font-bold my-4 text-red-500">Java is to JavaScript as X is to Y</h1>
 
   <a class="text-blue-500 hover:underline" href="http://javascriptisnotjava.com/">JavaScript is not Java.</a>
 
