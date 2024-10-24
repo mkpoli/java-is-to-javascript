@@ -5,6 +5,10 @@
       {
         "java": "Ham",
         "javascript": "Hamster"
+      },
+      {
+        "java": "Car",
+        "javascript": "Carpet"
       }
     ]
   },
@@ -23,6 +27,10 @@
       {
         "java": "インド",
         "javascript": "インドネシア"
+      },
+      {
+        "java": "ハム",
+        "javascript": "ハムスター"
       }
     ]
   }
