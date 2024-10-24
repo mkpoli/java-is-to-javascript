@@ -55,9 +55,17 @@
       <ul class="grid grid-cols-[1fr_auto_1fr] gap-x-2">
         {#each item.items as i}
           <li class="contents">
-            <span class="text-right">{i.java}</span>
+            <a
+              class="text-right hover:underline"
+              href={`https://${item.language}.wikipedia.org/wiki/${i.java}`}
+              target="_blank">{i.java}</a
+            >
             <span>🆚</span>
-            <span class="text-left">{i.javascript}</span>
+            <a
+              class="text-left hover:underline"
+              href={`https://${item.language}.wikipedia.org/wiki/${i.javascript}`}
+              target="_blank">{i.javascript}</a
+            >
           </li>
         {/each}
       </ul>
