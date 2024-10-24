@@ -30,17 +30,23 @@
   ] as const;
 </script>
 
-<h1>Java is to JavaScript as X is to Y...</h1>
+<main class="max-w-screen-md mx-auto text-center">
+  <h1 class="text-2xl font-bold my-4">Java is to JavaScript as X is to Y...</h1>
 
-<a href="http://javascriptisnotjava.com/">JavaScript is not Java.</a>
+  <a class="text-blue-500 hover:underline" href="http://javascriptisnotjava.com/">JavaScript is not Java.</a>
 
-<p>This is a list of things that are just like the different between Java and JavaScript in world's languages.</p>
+  <p class="my-4 max-w-md mx-auto">
+    This is a list of things that are just like the different between Java and JavaScript in world's languages.
+  </p>
 
-{#each DATA as item}
-  <h2>{item.language}</h2>
-  <ul>
-    {#each item.items as i}
-      <li>{i.java} 🆚 {i.javascript}</li>
-    {/each}
-  </ul>
-{/each}
+  {#each DATA as item}
+    <section class="my-4">
+      <h2 class="text-xl font-bold">{item.language}</h2>
+      <ul>
+        {#each item.items as i}
+          <li class="list-item">{i.java} 🆚 {i.javascript}</li>
+        {/each}
+      </ul>
+    </section>
+  {/each}
+</main>
