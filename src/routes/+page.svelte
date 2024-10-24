@@ -1,33 +1,5 @@
 <script lang="ts">
-  let DATA = [
-    {
-      language: 'English',
-      items: [
-        {
-          java: 'Ham',
-          javascript: 'Hamster',
-        },
-      ],
-    },
-    {
-      language: 'Chinese',
-      items: [
-        {
-          java: '雷锋',
-          javascript: '雷峰塔',
-        },
-      ],
-    },
-    {
-      language: 'Japanese',
-      items: [
-        {
-          java: 'インド',
-          javascript: 'インドネシア',
-        },
-      ],
-    },
-  ] as const;
+  import DATA from '../data.json';
 </script>
 
 <main class="max-w-screen-md mx-auto text-center">

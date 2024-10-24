@@ -1,0 +1,29 @@
+[
+  {
+    "language": "English",
+    "items": [
+      {
+        "java": "Ham",
+        "javascript": "Hamster"
+      }
+    ]
+  },
+  {
+    "language": "Chinese",
+    "items": [
+      {
+        "java": "雷锋",
+        "javascript": "雷峰塔"
+      }
+    ]
+  },
+  {
+    "language": "Japanese",
+    "items": [
+      {
+        "java": "インド",
+        "javascript": "インドネシア"
+      }
+    ]
+  }
+]
