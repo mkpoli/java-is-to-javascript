@@ -4,6 +4,8 @@
   import DATA_JA from '../../data/ja.json';
   import DATA_FR from '../../data/fr.json';
 
+  import GitHub from '~icons/simple-icons/github';
+
   const LANGUAGES: Record<string, string> = {
     en: 'English',
     zh: 'Chinese',
@@ -118,9 +120,15 @@
   <p>
     Copyright &copy; 2024 <a class="text-blue-500 hover:underline" href="https://mkpo.li/" target="_blank">mkpoli</a>.
   </p>
-  <p>
-    <a class="text-blue-500 hover:underline" href="https://github.com/mkpoli/java-is-to-javascript" target="_blank"
-      >Source Code at GitHub</a
+  <hr class="my-4" />
+  <p class="py-2">
+    <a
+      class="text-blue-500 hover:underline flex gap-2 items-center justify-center"
+      href="https://github.com/mkpoli/java-is-to-javascript"
+      target="_blank"
     >
+      <span> Source Code at GitHub </span>
+      <GitHub />
+    </a>
   </p>
 </footer>
