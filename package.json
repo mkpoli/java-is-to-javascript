@@ -13,6 +13,7 @@
     "db:studio": "drizzle-kit studio"
   },
   "devDependencies": {
+    "@iconify/json": "^2.2.263",
     "@sveltejs/adapter-vercel": "^5.4.5",
     "@sveltejs/kit": "^2.0.0",
     "@sveltejs/vite-plugin-svelte": "^4.0.0",
@@ -26,6 +27,7 @@
     "svelte-check": "^4.0.0",
     "tailwindcss": "^3.4.9",
     "typescript": "^5.0.0",
+    "unplugin-icons": "^0.19.3",
     "vite": "^5.0.3"
   },
   "dependencies": {
