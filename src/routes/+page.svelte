@@ -1,5 +1,5 @@
 <script lang="ts">
-  import DATA from '../data.json';
+  import DATA from '../../data/data.json';
 
   const LANGUAGES: Record<string, string> = {
     en: 'English',
