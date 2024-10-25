@@ -69,6 +69,38 @@
       {
         "java": "cat",
         "javascript": "catwalk"
+      },
+      {
+        "java": "butter",
+        "javascript": "butterfly"
+      },
+      {
+        "java": "pen",
+        "javascript": "penis"
+      },
+      {
+        "java": "rat",
+        "javascript": "rattlesnake"
+      },
+      {
+        "java": "ant",
+        "javascript": "antenna"
+      },
+      {
+        "java": "bat",
+        "javascript": "battle"
+      },
+      {
+        "java": "corn",
+        "javascript": "unicorn"
+      },
+      {
+        "java": "cup",
+        "javascript": "cupcake"
+      },
+      {
+        "java": "fire",
+        "javascript": "firefly"
       }
     ]
   },
@@ -112,8 +144,16 @@
         "javascript": "蜗牛"
       },
       {
-        "java": "熊猫",
-        "javascript": "熊猫烧香"
+        "java": "猫",
+        "javascript": "猫熊"
+      },
+      {
+        "java": "猫",
+        "javascript": "猫头鹰"
+      },
+      {
+        "java": "猫",
+        "javascript": "熊猫"
       },
       {
         "java": "熊猫",
