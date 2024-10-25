@@ -3,6 +3,7 @@
   "title": "Java est à JavaScript, ce que X est à Y",
   "jsIsNotJava": "JavaScript n'est pas Java.",
   "description": "Voici une liste de choses qui sont comme la différence entre Java et JavaScript dans les langages du monde.",
+  "addNewEntry": "Ajouter une nouvelle entrée/langue",
   "addNewEntryDescription": "Si vous connaissez une entrée qui n'est pas dans la liste, aidez-nous à l'ajouter via $$link$$.",
   "addNewEntryDescriptionLinkLabel": "contribuer au projet",
   "licenseOfData": "Tous les données de ce projet sont sous licence $$license$$.",

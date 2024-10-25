@@ -3,6 +3,7 @@
   "title": "JavaとJavaScriptの違いはXとYの違いと同じ",
   "jsIsNotJava": "JavaScriptはJavaではありません。",
   "description": "これは、世界の言語におけるJavaとJavaScriptの違いと同じようなものの一覧です。",
+  "addNewEntry": "新しい項目・言語を追加",
   "addNewEntryDescription": "リストにないエントリをご存知の場合は、$$link$$ で追加するのを手伝ってください。",
   "addNewEntryDescriptionLinkLabel": "プロジェクトに貢献する",
   "licenseOfData": "このプロジェクトのすべてのデータは $$license$$ にてリリースされています。",
