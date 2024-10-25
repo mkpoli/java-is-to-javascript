@@ -1,0 +1,26 @@
+{
+  "$schema": "https://js.mkpo.li/schema",
+  "language": "fr",
+  "items": [
+    {
+      "java": "chou",
+      "javascript": "chou-fleur"
+    },
+    {
+      "java": "chien",
+      "javascript": "chien de mer"
+    },
+    {
+      "java": "pomme",
+      "javascript": "pomme de terre"
+    },
+    {
+      "java": "chat",
+      "javascript": "chaton"
+    },
+    {
+      "java": "chat",
+      "javascript": "château"
+    }
+  ]
+}
