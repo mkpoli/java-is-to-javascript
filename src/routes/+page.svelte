@@ -6,10 +6,13 @@
     zh: 'Chinese',
     ja: 'Japanese',
   };
+
+  import * as m from '$lib/paraglide/messages';
+  import LanguageSwitcher from '$lib/components/LanguageSwitcher.svelte';
 </script>
 
 <svelte:head>
-  <title>Java is to JavaScript as X is to Y</title>
+  <title>{m.title()}</title>
   <meta
     name="description"
     content="This is a list of things that are just like the different between Java and JavaScript in world's languages."
@@ -41,7 +44,7 @@
 </svelte:head>
 
 <main class="max-w-screen-md mx-auto text-center">
-  <h1 class="text-2xl font-bold my-4 text-red-500">Java is to JavaScript as X is to Y</h1>
+  <h1 class="text-2xl font-bold my-4 text-red-500">{m.title()}</h1>
 
   <a class="text-blue-500 hover:underline" href="http://javascriptisnotjava.com/">JavaScript is not Java.</a>
 
@@ -107,4 +110,5 @@
       >Source Code at GitHub</a
     >
   </p>
+  <LanguageSwitcher />
 </footer>
