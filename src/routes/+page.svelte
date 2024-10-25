@@ -50,6 +50,10 @@
   <meta name="twitter:image" content="https://js.mkpo.li/screenshot.png" />
 </svelte:head>
 
+<header class="flex justify-center my-4">
+  <LanguageSwitcher />
+</header>
+
 <main class="max-w-screen-md mx-auto text-center">
   <h1 class="text-2xl font-bold my-4 text-red-500">{m.title()}</h1>
 
@@ -117,5 +121,4 @@
       >Source Code at GitHub</a
     >
   </p>
-  <LanguageSwitcher />
 </footer>
