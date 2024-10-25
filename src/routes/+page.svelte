@@ -99,7 +99,7 @@
     >.
   </p>
 </main>
-<hr />
+<hr class="border-orange-300" />
 <footer class="text-center my-4">
   <p>
     All data in this project is licensed under <a
@@ -120,7 +120,7 @@
   <p>
     Copyright &copy; 2024 <a class="text-blue-500 hover:underline" href="https://mkpo.li/" target="_blank">mkpoli</a>.
   </p>
-  <hr class="my-4" />
+  <hr class="my-4 border-orange-300" />
   <p class="py-2">
     <a
       class="text-blue-500 hover:underline flex gap-2 items-center justify-center"
