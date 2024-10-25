@@ -2,5 +2,12 @@
   "$schema": "https://inlang.com/schema/inlang-message-format",
   "title": "Java is to JavaScript as X is to Y",
   "jsIsNotJava": "JavaScript is not Java.",
-  "description": "This is a list of things that are just like the different between Java and JavaScript in world's languages."
+  "description": "This is a list of things that are just like the different between Java and JavaScript in world's languages.",
+  "addNewEntry": "Add new entry/language",
+  "addNewEntryDescription": "If you know an entry that is not in the list, please help us to add it by $$link$$.",
+  "addNewEntryDescriptionLinkLabel": "contributing to the project",
+  "licenseOfData": "All data in this project is licensed under $$license$$.",
+  "licenseOfDataLinkLabel": "CC0 1.0 Universal License",
+  "licenseOfCode": "The source code of the website is licensed under $$license$$.",
+  "licenseOfCodeLinkLabel": "Zero-Clause BSD License"
 }

@@ -2,5 +2,11 @@
   "$schema": "https://inlang.com/schema/inlang-message-format",
   "title": "JavaとJavaScriptの違いはXとYの違いと同じ",
   "jsIsNotJava": "JavaScriptはJavaではありません。",
-  "description": "これは、世界の言語におけるJavaとJavaScriptの違いと同じようなものの一覧です。"
+  "description": "これは、世界の言語におけるJavaとJavaScriptの違いと同じようなものの一覧です。",
+  "addNewEntryDescription": "リストにないエントリをご存知の場合は、$$link$$ で追加するのを手伝ってください。",
+  "addNewEntryDescriptionLinkLabel": "プロジェクトに貢献する",
+  "licenseOfData": "このプロジェクトのすべてのデータは $$license$$ にてリリースされています。",
+  "licenseOfDataLinkLabel": "CC0 1.0 全世界",
+  "licenseOfCode": "このウェブサイトのソースコードは $$license$$ にてリリースされています。",
+  "licenseOfCodeLinkLabel": "0条項BSDライセンス"
 }

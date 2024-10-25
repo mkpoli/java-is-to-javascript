@@ -2,5 +2,11 @@
   "$schema": "https://inlang.com/schema/inlang-message-format",
   "title": "Java和JavaScript的区别就像X和Y",
   "jsIsNotJava": "JavaScript不是Java。",
-  "description": "下表列出了世界上的各种语言中像Java和JavaScript之间区别一样的事物。"
+  "description": "下表列出了世界上的各种语言中像Java和JavaScript之间区别一样的事物。",
+  "addNewEntryDescription": "如果您知道列表中没有的条目，请通过$$link$$帮助我们添加它。",
+  "addNewEntryDescriptionLinkLabel": "贡献项目",
+  "licenseOfData": "本项目中的所有数据均以 $$license$$ 释出。",
+  "licenseOfDataLinkLabel": "CC0 1.0 通用协议",
+  "licenseOfCode": "本网站的所有源代码均以 $$license$$ 释出。",
+  "licenseOfCodeLinkLabel": "BSD 0条款许可证"
 }

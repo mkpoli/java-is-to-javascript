@@ -18,6 +18,7 @@
   import * as m from '$lib/paraglide/messages';
   import LanguageSwitcher from '$lib/components/LanguageSwitcher.svelte';
   import { languageTag } from '$lib/paraglide/runtime';
+  import ParaglideInterpolation from '$lib/components/ParaglideInterpolation.svelte';
 
   const entries = DATA.toSorted((a, b) => {
     if (languageTag() === a.language) return -1;
@@ -90,32 +91,42 @@
     </section>
   {/each}
 
-  <h2 class="text-xl font-bold my-4">Add new entry/language</h2>
+  <h2 class="text-xl font-bold my-4">{m.addNewEntry()}</h2>
   <p class="my-4 max-w-md mx-auto">
-    If you know an entry that is not in the list, please help us to add it by <a
-      class="text-blue-500 hover:underline"
-      href="https://github.com/mkpoli/java-is-to-javascript/blob/main/CONTRIBUTING.md"
-      target="_blank">contributing to the project</a
-    >.
+    <ParaglideInterpolation text={m.addNewEntryDescription() }>
+      {#snippet link()}
+        <a
+          class="text-blue-500 hover:underline"
+          href="https://github.com/mkpoli/java-is-to-javascript/blob/main/CONTRIBUTING.md"
+          target="_blank">{m.addNewEntryDescriptionLinkLabel()}</a
+        >
+      {/snippet}
+    </ParaglideInterpolation>
   </p>
 </main>
 <hr class="border-orange-300" />
 <footer class="text-center my-4">
   <p>
-    All data in this project is licensed under <a
-      class="text-blue-500 hover:underline"
-      href="https://creativecommons.org/publicdomain/zero/1.0/legalcode"
-      target="_blank">CC0 1.0 Universal License</a
-    >
-    (CC0-1.0).
+    <ParaglideInterpolation text={m.licenseOfData()}>
+      {#snippet license()}
+        <a
+          class="text-blue-500 hover:underline"
+          href="https://creativecommons.org/publicdomain/zero/1.0/legalcode"
+          target="_blank">{m.licenseOfDataLinkLabel()}</a
+        > (CC0-1.0)
+      {/snippet}
+    </ParaglideInterpolation>
   </p>
   <p>
-    The source code of the website is licensed under <a
-      class="text-blue-500 hover:underline"
-      href="https://opensource.org/license/0bsd"
-      target="_blank">Zero-Clause BSD License</a
-    >
-    (0BSD).
+    <ParaglideInterpolation text={m.licenseOfCode()}>
+      {#snippet license()}
+        <a
+          class="text-blue-500 hover:underline"
+          href="https://opensource.org/license/0bsd"
+          target="_blank">{m.licenseOfCodeLinkLabel()}</a
+        > (0BSD)
+      {/snippet}
+    </ParaglideInterpolation>
   </p>
   <p>
     Copyright &copy; 2024 <a class="text-blue-500 hover:underline" href="https://mkpo.li/" target="_blank">mkpoli</a>.
