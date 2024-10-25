@@ -1,4 +1,5 @@
 {
   "$schema": "https://inlang.com/schema/inlang-message-format",
-  "title": "JavaとJavaScriptの違いはXとYの違いと同じ"
+  "title": "JavaとJavaScriptの違いはXとYの違いと同じ",
+  "jsIsNotJava": "JavaScriptはJavaではありません。"
 }

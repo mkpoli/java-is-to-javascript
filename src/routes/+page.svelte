@@ -63,7 +63,9 @@
 <main class="max-w-screen-md mx-auto text-center">
   <h1 class="text-2xl font-bold my-4 text-red-500">{m.title()}</h1>
 
-  <a class="text-blue-500 hover:underline" href="http://javascriptisnotjava.com/">JavaScript is not Java.</a>
+  <a class="text-blue-500 hover:underline" href="http://javascriptisnotjava.com/">
+    {m.jsIsNotJava()}
+  </a>
 
   <p class="my-4 max-w-md mx-auto">
     This is a list of things that are just like the different between Java and JavaScript in world's languages.
