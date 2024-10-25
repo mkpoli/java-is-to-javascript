@@ -6,12 +6,13 @@
 
   import GitHub from '~icons/simple-icons/github';
 
-  const LANGUAGES: Record<string, string> = {
-    en: 'English',
-    zh: 'Chinese',
-    ja: 'Japanese',
-    fr: 'French',
-  };
+  const AVAILABLE_LANGUAGES = ['en', 'zh', 'ja', 'fr'];
+
+  const LANGUAGES: Record<string, string> = Object.fromEntries(
+    AVAILABLE_LANGUAGES.map((lang) =>
+    [lang, 
+    lang === languageTag() ? getAutonym(lang) : `${getXenonymInCurrentLocale(lang)} (${getAutonym(lang)})`])
+  );
 
   const DATA = [DATA_EN, DATA_ZH, DATA_JA, DATA_FR];
 
@@ -19,6 +20,7 @@
   import LanguageSwitcher from '$lib/components/LanguageSwitcher.svelte';
   import { languageTag } from '$lib/paraglide/runtime';
   import ParaglideInterpolation from '$lib/components/ParaglideInterpolation.svelte';
+  import { getAutonym, getXenonymInCurrentLocale } from '$lib/language';
 
   const entries = DATA.toSorted((a, b) => {
     if (languageTag() === a.language) return -1;
