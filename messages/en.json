@@ -1,5 +1,6 @@
 {
   "$schema": "https://inlang.com/schema/inlang-message-format",
   "title": "Java is to JavaScript as X is to Y",
-  "jsIsNotJava": "JavaScript is not Java."
+  "jsIsNotJava": "JavaScript is not Java.",
+  "description": "This is a list of things that are just like the different between Java and JavaScript in world's languages."
 }

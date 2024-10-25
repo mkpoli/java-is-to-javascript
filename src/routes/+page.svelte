@@ -26,14 +26,11 @@
 
 <svelte:head>
   <title>{m.title()}</title>
-  <meta
-    name="description"
-    content="This is a list of things that are just like the different between Java and JavaScript in world's languages."
-  />
+  <meta name="description" content={m.description()} />
   <meta name="author" content="mkpoli" />
   <meta name="robots" content="index, follow" />
 
-  <meta name="og:title" content="Java is to JavaScript as X is to Y" />
+  <meta name="og:title" content={m.title()} />
   <meta
     name="og:description"
     content="This is a list of things that are just like the different between Java and JavaScript in world's languages."
@@ -42,17 +39,14 @@
   <meta name="og:url" content="https://js.mkpo.li" />
   <meta name="og:image" content="https://js.mkpo.li/screenshot.png" />
   <meta name="og:type" content="website" />
-  <meta name="og:site_name" content="Java is to JavaScript as X is to Y" />
+  <meta name="og:site_name" content={m.title()} />
   <meta name="og:locale" content="en_US" />
-  <meta name="og:image:alt" content="Java is to JavaScript as X is to Y" />
+  <meta name="og:image:alt" content={m.title()} />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" content="@mkpoli" />
-  <meta name="twitter:title" content="Java is to JavaScript as X is to Y" />
-  <meta
-    name="twitter:description"
-    content="This is a list of things that are just like the different between Java and JavaScript in world's languages."
-  />
+  <meta name="twitter:title" content={m.title()} />
+  <meta name="twitter:description" content={m.description()} />
   <meta name="twitter:image" content="https://js.mkpo.li/screenshot.png" />
 </svelte:head>
 
@@ -68,7 +62,7 @@
   </a>
 
   <p class="my-4 max-w-md mx-auto">
-    This is a list of things that are just like the different between Java and JavaScript in world's languages.
+    {m.description()}
   </p>
 
   {#each entries as item}
