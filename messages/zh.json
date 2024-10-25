@@ -9,5 +9,6 @@
   "licenseOfData": "本项目中的所有数据均以 $$license$$ 释出。",
   "licenseOfDataLinkLabel": "CC0 1.0 通用协议",
   "licenseOfCode": "本网站的所有源代码均以 $$license$$ 释出。",
-  "licenseOfCodeLinkLabel": "BSD 0条款许可证"
+  "licenseOfCodeLinkLabel": "BSD 0条款许可证",
+  "sourceCodeAtGitHub": "GitHub 上的源代码"
 }

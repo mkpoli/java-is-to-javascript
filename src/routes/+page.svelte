@@ -140,7 +140,7 @@
       href="https://github.com/mkpoli/java-is-to-javascript"
       target="_blank"
     >
-      <span> Source Code at GitHub </span>
+      <span> {m.sourceCodeAtGitHub()} </span>
       <GitHub />
     </a>
   </p>

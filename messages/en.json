@@ -9,5 +9,6 @@
   "licenseOfData": "All data in this project is licensed under $$license$$.",
   "licenseOfDataLinkLabel": "CC0 1.0 Universal License",
   "licenseOfCode": "The source code of the website is licensed under $$license$$.",
-  "licenseOfCodeLinkLabel": "Zero-Clause BSD License"
+  "licenseOfCodeLinkLabel": "Zero-Clause BSD License",
+  "sourceCodeAtGitHub": "Source Code at GitHub"
 }

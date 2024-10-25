@@ -9,5 +9,6 @@
   "licenseOfData": "このプロジェクトのすべてのデータは $$license$$ にてリリースされています。",
   "licenseOfDataLinkLabel": "CC0 1.0 全世界",
   "licenseOfCode": "このウェブサイトのソースコードは $$license$$ にてリリースされています。",
-  "licenseOfCodeLinkLabel": "0条項BSDライセンス"
+  "licenseOfCodeLinkLabel": "0条項BSDライセンス",
+  "sourceCodeAtGitHub": "GitHub 上のソースコード"
 }
