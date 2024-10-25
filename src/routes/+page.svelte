@@ -9,6 +9,13 @@
 
   import * as m from '$lib/paraglide/messages';
   import LanguageSwitcher from '$lib/components/LanguageSwitcher.svelte';
+  import { languageTag } from '$lib/paraglide/runtime';
+
+  const entries = DATA.toSorted((a, b) => {
+    if (languageTag() === a.language) return -1;
+    if (languageTag() === b.language) return 1;
+    return 0;
+  });
 </script>
 
 <svelte:head>
@@ -52,7 +59,7 @@
     This is a list of things that are just like the different between Java and JavaScript in world's languages.
   </p>
 
-  {#each DATA as item}
+  {#each entries as item}
     <section class="my-4">
       <h2 class="text-xl font-bold">{LANGUAGES[item.language]}</h2>
       <ul class="grid grid-cols-[1fr_auto_1fr] gap-x-2">
