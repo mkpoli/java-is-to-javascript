@@ -1,11 +1,15 @@
 <script lang="ts">
-  import DATA from '../../data/data.json';
+  import DATA_EN from '../../data/en.json';
+  import DATA_ZH from '../../data/zh.json';
+  import DATA_JA from '../../data/ja.json';
 
   const LANGUAGES: Record<string, string> = {
     en: 'English',
     zh: 'Chinese',
     ja: 'Japanese',
   };
+
+  const DATA = [DATA_EN, DATA_ZH, DATA_JA];
 
   import * as m from '$lib/paraglide/messages';
   import LanguageSwitcher from '$lib/components/LanguageSwitcher.svelte';

@@ -1,0 +1,106 @@
+{
+  "$schema": "https://js.mkpo.li/schema",
+  "language": "en",
+  "items": [
+    {
+      "java": "ham",
+      "javascript": "hamster"
+    },
+    {
+      "java": "ham",
+      "javascript": "hamburger"
+    },
+    {
+      "java": "car",
+      "javascript": "carpet"
+    },
+    {
+      "java": "cat",
+      "javascript": "catfish"
+    },
+    {
+      "java": "cat",
+      "javascript": "catastrophe"
+    },
+    {
+      "java": "cat",
+      "javascript": "caterpillar"
+    },
+    {
+      "java": "water",
+      "javascript": "watermelon"
+    },
+    {
+      "java": "ass",
+      "javascript": "assassin"
+    },
+    {
+      "java": "grape",
+      "javascript": "grapefruit"
+    },
+    {
+      "java": "pine",
+      "javascript": "pineapple"
+    },
+    {
+      "java": "fun",
+      "javascript": "funeral"
+    },
+    {
+      "java": "fun",
+      "javascript": "fundamentalist"
+    },
+    {
+      "java": "dog",
+      "javascript": "hotdog"
+    },
+    {
+      "java": "Swift",
+      "javascript": "Taylor Swift"
+    },
+    {
+      "java": "egg",
+      "javascript": "eggplant"
+    },
+    {
+      "java": "mango",
+      "javascript": "Mangosteen"
+    },
+    {
+      "java": "cat",
+      "javascript": "catwalk"
+    },
+    {
+      "java": "butter",
+      "javascript": "butterfly"
+    },
+    {
+      "java": "pen",
+      "javascript": "penis"
+    },
+    {
+      "java": "rat",
+      "javascript": "rattlesnake"
+    },
+    {
+      "java": "ant",
+      "javascript": "antenna"
+    },
+    {
+      "java": "bat",
+      "javascript": "battle"
+    },
+    {
+      "java": "corn",
+      "javascript": "unicorn"
+    },
+    {
+      "java": "cup",
+      "javascript": "cupcake"
+    },
+    {
+      "java": "fire",
+      "javascript": "firefly"
+    }
+  ]
+}
