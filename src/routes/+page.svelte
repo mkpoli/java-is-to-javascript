@@ -72,7 +72,7 @@
 
   {#each entries as item}
     <section class="my-4">
-      <h2 class="text-xl font-bold">{LANGUAGES[item.language]}</h2>
+      <h2 class="text-xl font-bold capitalize">{LANGUAGES[item.language]}</h2>
       <ul class="grid grid-cols-[1fr_auto_1fr] gap-x-2">
         {#each item.items as i}
           <li class="contents">
