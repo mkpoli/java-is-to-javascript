@@ -144,4 +144,5 @@
       <GitHub />
     </a>
   </p>
+  <LanguageSwitcher />
 </footer>
