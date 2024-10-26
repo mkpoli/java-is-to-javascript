@@ -23,6 +23,7 @@
       title={`${getXenonymInCurrentLocale(lang)} (${lang})`}
       class="text-blue-500 hover:underline"
       onclick={() => switchToLanguage(lang)}
+      {lang}
     >
       {languageAutonyms.get(lang)}
     </button>

@@ -7,14 +7,6 @@
 
   import GitHub from '~icons/simple-icons/github';
 
-  const AVAILABLE_LANGUAGES = ['en', 'zh', 'ja', 'fr', 'ko'];
-
-  const LANGUAGES: Record<string, string> = Object.fromEntries(
-    AVAILABLE_LANGUAGES.map((lang) =>
-    [lang, 
-    lang === languageTag() ? getAutonym(lang) : `${getXenonymInCurrentLocale(lang)} (${getAutonym(lang)})`])
-  );
-
   const DATA = [DATA_EN, DATA_ZH, DATA_JA, DATA_FR, DATA_KO];
 
   import * as m from '$lib/paraglide/messages';
@@ -76,20 +68,34 @@
 
   {#each entries as item}
     <section class="my-4">
-      <h2 class="text-xl font-bold capitalize">{LANGUAGES[item.language]}</h2>
+      <h2 class="text-xl font-bold capitalize">
+        <span>
+          {#if item.language === languageTag()}
+            {getAutonym(item.language)}
+          {:else}
+            {getXenonymInCurrentLocale(item.language)} (<span lang={item.language}>{getAutonym(item.language)}</span>)
+          {/if}
+        </span>
+      </h2>
       <ul class="grid grid-cols-[1fr_auto_1fr] gap-x-2">
         {#each item.items as i}
           <li class="contents">
             <a
               class="text-right hover:underline"
               href={`https://${item.language}.wikipedia.org/wiki/${i.java}`}
-              target="_blank">{i.java}</a
+              target="_blank"
+              lang={item.language}
+              hreflang={item.language}  
+            >{i.java}</a
             >
             <span>🆚</span>
             <a
               class="text-left hover:underline"
               href={`https://${item.language}.wikipedia.org/wiki/${i.javascript}`}
-              target="_blank">{i.javascript}</a
+              target="_blank"
+              lang={item.language}
+              hreflang={item.language}
+            >{i.javascript}</a
             >
           </li>
         {/each}
