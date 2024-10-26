@@ -69,6 +69,14 @@
     {
       "java": "사자",
       "javascript": "바다사자"
+    },
+    {
+      "java": "사슴",
+      "javascript": "사슴벌레로"
+    },
+    {
+      "java": "카",
+      "javascript": "카펫"
     }
   ]
 }
