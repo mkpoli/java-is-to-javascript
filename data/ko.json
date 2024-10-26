@@ -1,0 +1,70 @@
+{
+  "$schema": "https://js.mkpo.li/schema",
+  "language": "ko",
+  "items": [
+    {
+      "java": "햄",
+      "javascript": "햄버거"
+    },
+    {
+      "java": "감",
+      "javascript": "감자"
+    },
+    {
+      "java": "오렌지",
+      "javascript": "오렌지"
+    },
+    {
+      "java": "인도",
+      "javascript": "인도네시아"
+    },
+    {
+      "java": "사자",
+      "javascript": "바다사자"
+    },
+    {
+      "java": "가래",
+      "javascript": "가래떡"
+    },
+    {
+      "java": "붕어",
+      "javascript": "붕어빵"
+    },
+    {
+      "java": "코끼리",
+      "javascript": "바다코끼리"
+    },
+    {
+      "java": "파",
+      "javascript": "파슬리"
+    },
+    {
+      "java": "쥐",
+      "javascript": "쥐며느리"
+    },
+    {
+      "java": "황소",
+      "javascript": "황소개구리"
+    },
+    {
+      "java": "강아지",
+      "javascript": "강아지라면"
+    },
+    {
+      "java": "뱀",
+      "javascript": "뱀며느리"
+    },
+    {
+      "java": "고양이",
+      "javascript": "고양이라면"
+    },
+    {
+      "java": "갈매기",
+      "javascript": "갈매기라면"
+    },
+    {
+      "java": "팽이",
+      "javascript": "팽이버섯"
+    }
+  ]
+}

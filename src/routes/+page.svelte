@@ -3,10 +3,11 @@
   import DATA_ZH from '../../data/zh.json';
   import DATA_JA from '../../data/ja.json';
   import DATA_FR from '../../data/fr.json';
+  import DATA_KO from '../../data/ko.json';
 
   import GitHub from '~icons/simple-icons/github';
 
-  const AVAILABLE_LANGUAGES = ['en', 'zh', 'ja', 'fr'];
+  const AVAILABLE_LANGUAGES = ['en', 'zh', 'ja', 'fr', 'ko'];
 
   const LANGUAGES: Record<string, string> = Object.fromEntries(
     AVAILABLE_LANGUAGES.map((lang) =>
@@ -14,7 +15,7 @@
     lang === languageTag() ? getAutonym(lang) : `${getXenonymInCurrentLocale(lang)} (${getAutonym(lang)})`])
   );
 
-  const DATA = [DATA_EN, DATA_ZH, DATA_JA, DATA_FR];
+  const DATA = [DATA_EN, DATA_ZH, DATA_JA, DATA_FR, DATA_KO];
 
   import * as m from '$lib/paraglide/messages';
   import LanguageSwitcher from '$lib/components/LanguageSwitcher.svelte';
