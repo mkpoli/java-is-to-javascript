@@ -22,6 +22,7 @@
   import { languageTag } from '$lib/paraglide/runtime';
   import ParaglideInterpolation from '$lib/components/ParaglideInterpolation.svelte';
   import { getAutonym, getXenonymInCurrentLocale } from '$lib/language';
+  import GitHubMark from '$lib/components/GitHubMark.svelte';
 
   const entries = DATA.toSorted((a, b) => {
     if (languageTag() === a.language) return -1;
@@ -55,6 +56,8 @@
   <meta name="twitter:description" content={m.description()} />
   <meta name="twitter:image" content="https://js.mkpo.li/screenshot.png" />
 </svelte:head>
+
+<GitHubMark />
 
 <header class="flex justify-center my-4">
   <LanguageSwitcher />
