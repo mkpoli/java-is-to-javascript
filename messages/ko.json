@@ -1,0 +1,14 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "title": "자바(Java)와 자바스크립트(JavaScript)가 X와 Y와의 차이와 같다",
+  "jsIsNotJava": "자바스크립트는 자바가 아닙니다.",
+  "description": "세계 언어에서 자바와 자바스크립트의 차이점과 같은 단어들입니다.",
+  "addNewEntry": "새로운 항목/언어 추가",
+  "addNewEntryDescription": "리스트에 없는 항목을 아신다면, $$link$$를 통해 추가해주세요.",
+  "addNewEntryDescriptionLinkLabel": "프로젝트에 기여하기",
+  "licenseOfData": "이 프로젝트의 모든 데이터는 $$license$$에 따라 라이선스가 부여됩니다.",
+  "licenseOfDataLinkLabel": "CC0 1.0 세계 공중",
+  "licenseOfCode": "이 웹사이트의 소스 코드는 $$license$$에 따라 라이선스가 부여됩니다.",
+  "licenseOfCodeLinkLabel": "0 조건 BSD 라이선스",
+  "sourceCodeAtGitHub": "GitHub에서 소스 코드 보기"
+}
