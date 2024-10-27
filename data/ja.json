@@ -97,6 +97,62 @@
     {
       "java": "アンパン",
       "javascript": "アンパンマン"
+    },
+    {
+      "java": "ヘビ",
+      "javascript": "ヘビトンボ"
+    },
+    {
+      "java": "中国",
+      "javascript": "中国地方"
+    },
+    {
+      "java": "多摩湖",
+      "javascript": "奥多摩湖"
+    },
+    {
+      "java": "同値",
+      "javascript": "同値関係"
+    },
+    {
+      "java": "りんご",
+      "javascript": "りんごろう"
+    },
+    {
+      "java": "ずんだ",
+      "javascript": "ずんだもん"
+    },
+    {
+      "java": "血豆",
+      "javascript": "チマメ隊"
+    },
+    {
+      "java": "クマ",
+      "javascript": "クマゼミ"
+    },
+    {
+      "java": "セミ",
+      "javascript": "セミエビ"
+    },
+    {
+      "java": "秩父",
+      "javascript": "東秩父"
+    },
+    {
+      "java": "コレラ",
+      "javascript": "豚コレラ"
+    },
+    {
+      "java": "スズメ",
+      "javascript": "スズメガ"
+    },
+    {
+      "java": "弁慶",
+      "javascript": "内弁慶"
+    },
+    {
+      "java": "ウマ",
+      "javascript": "ウマ娘"
     }
   ]
 }
