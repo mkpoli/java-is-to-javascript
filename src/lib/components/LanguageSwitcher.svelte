@@ -13,7 +13,7 @@
   function switchToLanguage(newLanguage: AvailableLanguageTag) {
     const canonicalPath = i18n.route($page.url.pathname);
     const localisedPath = i18n.resolveRoute(canonicalPath, newLanguage);
-    goto(localisedPath);
+    goto(localisedPath, { noScroll: true });
   }
 </script>
 
@@ -23,6 +23,7 @@
       title={`${getXenonymInCurrentLocale(lang)} (${lang})`}
       class="text-blue-500 hover:underline"
       onclick={() => switchToLanguage(lang)}
+      {lang}
     >
       {languageAutonyms.get(lang)}
     </button>

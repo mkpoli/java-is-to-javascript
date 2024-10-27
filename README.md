@@ -4,6 +4,13 @@ This is a website that lists things that are just like the different between Jav
 
 ![screenshot](./static/screenshot.png)
 
+## Structure
+
+Important directories:
+- [`data/`](./data/): Word lists for each language.
+- [`messages/`](./messages/): Translation files for each language.
+- [`src/`](./src/): Source code of the website.
+
 ## License
 
 This project is licensed under the following terms[^3]:
