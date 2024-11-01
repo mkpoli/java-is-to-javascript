@@ -157,6 +157,82 @@
     {
       "java": "ウマ",
       "javascript": "ウマ娘"
+    },
+    {
+      "java": "アース",
+      "javascript": "レアアース"
+    },
+    {
+      "java": "カニ",
+      "javascript": "タラバガニ"
+    },
+    {
+      "java": "ウナギ",
+      "javascript": "フクロウナギ"
+    },
+    {
+      "java": "カメ",
+      "javascript": "カメノテ"
+    },
+    {
+      "java": "ウナギ",
+      "javascript": "ヌタウナギ"
+    },
+    {
+      "java": "みそ",
+      "javascript": "脳みそ"
+    },
+    {
+      "java": "ネズミ",
+      "javascript": "トガリネズミ"
+    },
+    {
+      "java": "シカ",
+      "javascript": "カモシカ"
+    },
+    {
+      "java": "スズメ",
+      "javascript": "スズメバチ"
+    },
+    {
+      "java": "王子",
+      "javascript": "八王子"
+    },
+    {
+      "java": "狭山市",
+      "javascript": "大阪狭山市"
+    },
+    {
+      "java": "広島市",
+      "javascript": "北広島市"
+    },
+    {
+      "java": "長崎",
+      "javascript": "東長崎"
+    },
+    {
+      "java": "奈良",
+      "javascript": "奈良橋"
+    },
+    {
+      "java": "久留米市",
+      "javascript": "東久留米市"
+    },
+    {
+      "java": "伊勢",
+      "javascript": "伊勢原"
+    },
+    {
+      "java": "伊勢",
+      "javascript": "伊勢崎"
+    },
+    {
+      "java": "ランゲルハンス細胞",
+      "javascript": "ランゲルハンス島B細胞"
+    },
+    {
+      "java": "メントス",
+      "javascript": "メメントス"
     }
   ]
 }
