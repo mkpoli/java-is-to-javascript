@@ -11,6 +11,12 @@ Important directories:
 - [`messages/`](./messages/): Translation files for each language.
 - [`src/`](./src/): Source code of the website.
 
+## Sponsor
+
+I make this site alone, out of love for the world's languages. I don't have a job, and my small TA pay doesn't cover rent and food. Even one dollar on [Ko-fi](https://ko-fi.com/mkpoli) helps me eat today. Companies interested in sponsoring can write to mkpoli@mkpo.li.
+
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/mkpoli)
+
 ## License
 
 This project is licensed under the following terms[^3]:
