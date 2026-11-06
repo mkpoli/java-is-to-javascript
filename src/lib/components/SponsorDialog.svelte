@@ -81,7 +81,8 @@
     pressedOutside = outside(event);
   }}
   onclick={(event) => {
-    if (pressedOutside && outside(event)) open = false;
+    if (pressedOutside && event.target === dialog && outside(event)) open = false;
+    pressedOutside = false;
   }}
 >
   {#if open}
