@@ -15,6 +15,9 @@
   import ParaglideInterpolation from '$lib/components/ParaglideInterpolation.svelte';
   import { getAutonym, getXenonymInCurrentLocale } from '$lib/language';
   import GitHubMark from '$lib/components/GitHubMark.svelte';
+  import SponsorDialog from '$lib/components/SponsorDialog.svelte';
+
+  let sponsorOpen = $state(false);
 
   const entries = DATA.toSorted((a, b) => {
     if (languageTag() === a.language) return -1;
@@ -51,9 +54,28 @@
 
 <GitHubMark />
 
-<header class="flex justify-center my-4">
+<header class="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 my-4 px-4">
   <LanguageSwitcher />
+  <button
+    type="button"
+    class="sponsor"
+    aria-haspopup="dialog"
+    aria-expanded={sponsorOpen}
+    onclick={() => {
+      sponsorOpen = true;
+    }}
+  >
+    <span class="sponsor-face" aria-hidden="true">
+      <img src="/sponsor-face.webp" alt="" width="24" height="24" decoding="async" />
+      <svg class="sponsor-heart" viewBox="0 0 24 24"
+        ><path d="M12 21s-8.5-5.1-8.5-11.3A4.7 4.7 0 0 1 12 6.9a4.7 4.7 0 0 1 8.5 2.8C20.5 15.9 12 21 12 21Z" /></svg
+      >
+    </span>
+    <span>{m.sponsorLabel()}</span>
+  </button>
 </header>
+
+<SponsorDialog bind:open={sponsorOpen} />
 
 <main class="max-w-screen-md mx-auto text-center">
   <h1 class="text-2xl font-bold my-4 text-red-500">{m.title()}</h1>
@@ -156,3 +178,82 @@
   </p>
   <LanguageSwitcher />
 </footer>
+
+<style>
+  /* A soft pink pill led by the author's face, with a small heart on it that beats. */
+  .sponsor {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    flex: none;
+    block-size: 32px;
+    padding: 0 12px 0 4px;
+    border: 1px solid #ffd0de;
+    border-radius: 999px;
+    background: linear-gradient(120deg, #ffe6ef, #fff0e0);
+    color: #c2185b;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    transition:
+      transform 0.15s ease,
+      box-shadow 0.15s ease;
+  }
+  .sponsor:hover,
+  .sponsor:focus-visible {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgb(255 79 136 / 0.28);
+  }
+  .sponsor:active {
+    transform: scale(0.97);
+  }
+  .sponsor:focus-visible {
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
+  }
+  .sponsor-face {
+    position: relative;
+    flex: none;
+    inline-size: 24px;
+    block-size: 24px;
+  }
+  .sponsor-face img {
+    display: block;
+    inline-size: 100%;
+    block-size: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow:
+      0 0 0 1.5px #fff,
+      0 0 0 2.5px #ffd0de;
+  }
+  .sponsor-heart {
+    position: absolute;
+    right: -4px;
+    bottom: -3px;
+    inline-size: 12px;
+    block-size: 12px;
+    fill: #ff4f88;
+    stroke: #fff;
+    stroke-width: 2.5;
+    paint-order: stroke;
+    overflow: visible;
+    transform-origin: 50% 60%;
+    animation: sponsor-beat 2.8s ease-in-out infinite;
+  }
+  @keyframes sponsor-beat {
+    0%, 70%, 100% { transform: scale(1); }
+    78% { transform: scale(1.22); }
+    86% { transform: scale(0.96); }
+    93% { transform: scale(1.12); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .sponsor,
+    .sponsor-heart {
+      animation: none;
+      transition: none;
+    }
+  }
+</style>
