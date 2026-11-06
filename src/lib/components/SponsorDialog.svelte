@@ -87,6 +87,18 @@
   {#if open}
     <header>
       <h2 id="sponsor-title">{m.sponsorLabel()}</h2>
+      <button
+        class="close"
+        type="button"
+        aria-label={m.sponsorClose()}
+        onclick={() => {
+          open = false;
+        }}
+      >
+        <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"
+          ><path d="M5 5l10 10M15 5L5 15" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" /></svg
+        >
+      </button>
     </header>
     <div class="sheet">
       <div class="hero" aria-hidden="true">
@@ -151,7 +163,11 @@
     position: sticky;
     top: 0;
     z-index: 1;
-    padding: 14px 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 14px 16px 10px 20px;
     background: #fefce8;
     border-bottom: 1px solid var(--line);
   }
@@ -159,6 +175,26 @@
     margin: 0;
     font-size: 1.125rem;
     font-weight: 700;
+  }
+  .close {
+    display: grid;
+    place-items: center;
+    inline-size: 32px;
+    block-size: 32px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .close:hover {
+    background: rgb(0 0 0 / 0.06);
+    color: var(--ink);
+  }
+  .close:focus-visible {
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
   }
   .sheet {
     display: flex;
