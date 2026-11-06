@@ -10,5 +10,19 @@
   "licenseOfDataLinkLabel": "Licence CC0 1.0 Universelle",
   "licenseOfCode": "Le code source du site est sous licence $$license$$.",
   "licenseOfCodeLinkLabel": "Licence Zero-Clause BSD",
-  "sourceCodeAtGitHub": "Code source sur GitHub"
+  "sourceCodeAtGitHub": "Code source sur GitHub",
+  "sponsorLabel": "Soutenir",
+  "sponsorSupporters": "Soutiens récents",
+  "sponsorAnonymous": "Quelqu'un",
+  "sponsorLead": "Je développe « {app} » en solo, sans aucun financement. Le site est gratuit pour tout le monde, et j’aimerais qu’il le reste.",
+  "sponsorAsk": "Si « {app} » vous est utile, un petit don me donne du temps pour continuer à l’améliorer.",
+  "sponsorHowTo": "Comment faire un don",
+  "sponsorStep1": "Appuyez sur l’un des deux boutons ci-dessous.",
+  "sponsorStep2": "Choisissez un montant.",
+  "sponsorStep3": "Payez par carte. Pas besoin de créer un compte.",
+  "sponsorKofi": "Don ponctuel ou mensuel",
+  "sponsorOfuse": "Faire un don avec un message",
+  "sponsorCompany": "Les entreprises peuvent aussi soutenir le projet.",
+  "sponsorCompanyHint": "Écrivez-moi à mkpoli@mkpo.li.",
+  "sponsorThanks": "Merci d’utiliser « {app} » 💗"
 }

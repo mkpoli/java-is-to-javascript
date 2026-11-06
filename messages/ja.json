@@ -10,5 +10,19 @@
   "licenseOfDataLinkLabel": "CC0 1.0 全世界",
   "licenseOfCode": "このウェブサイトのソースコードは $$license$$ にてリリースされています。",
   "licenseOfCodeLinkLabel": "0条項BSDライセンス",
-  "sourceCodeAtGitHub": "GitHub 上のソースコード"
+  "sourceCodeAtGitHub": "GitHub 上のソースコード",
+  "sponsorLabel": "スポンサー",
+  "sponsorSupporters": "最近の支援者",
+  "sponsorAnonymous": "匿名希望",
+  "sponsorLead": "「{app}」は個人で開発しており、外部からの資金援助などはありません。どなたでも無料で利用でき、これからもずっと無料で提供し続けたいと思っています。",
+  "sponsorAsk": "もし「{app}」がお役に立っていましたら、チップをいただけると、改善を続けていく時間を作ることができます。",
+  "sponsorHowTo": "チップの送り方",
+  "sponsorStep1": "下のどちらかのボタンを押します。",
+  "sponsorStep2": "金額を選びます。",
+  "sponsorStep3": "カードで支払います。登録は不要です。",
+  "sponsorKofi": "1回のみ、または毎月",
+  "sponsorOfuse": "メッセージ付きチップ",
+  "sponsorCompany": "企業スポンサーも歓迎しています。",
+  "sponsorCompanyHint": "mkpoli@mkpo.liまでご連絡ください。",
+  "sponsorThanks": "「{app}」をご利用いただきありがとうございます💗"
 }

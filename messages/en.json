@@ -10,5 +10,19 @@
   "licenseOfDataLinkLabel": "CC0 1.0 Universal License",
   "licenseOfCode": "The source code of the website is licensed under $$license$$.",
   "licenseOfCodeLinkLabel": "Zero-Clause BSD License",
-  "sourceCodeAtGitHub": "Source Code at GitHub"
+  "sourceCodeAtGitHub": "Source Code at GitHub",
+  "sponsorLabel": "Sponsor",
+  "sponsorSupporters": "Recent supporters",
+  "sponsorAnonymous": "Someone",
+  "sponsorLead": "I build “{app}” on my own, with no funding behind it. It's free for everyone, and I'd like to keep it that way.",
+  "sponsorAsk": "If “{app}” is useful to you, a tip gives me time to keep improving it.",
+  "sponsorHowTo": "How to tip",
+  "sponsorStep1": "Tap either button below.",
+  "sponsorStep2": "Pick an amount.",
+  "sponsorStep3": "Pay by card. No sign-up needed.",
+  "sponsorKofi": "One-time or monthly",
+  "sponsorOfuse": "Tip with a message",
+  "sponsorCompany": "Companies can sponsor too.",
+  "sponsorCompanyHint": "Write to mkpoli@mkpo.li.",
+  "sponsorThanks": "Thank you for using “{app}” 💗"
 }

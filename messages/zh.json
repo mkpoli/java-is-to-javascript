@@ -10,5 +10,19 @@
   "licenseOfDataLinkLabel": "CC0 1.0 通用协议",
   "licenseOfCode": "本网站的所有源代码均以 $$license$$ 释出。",
   "licenseOfCodeLinkLabel": "BSD 0条款许可证",
-  "sourceCodeAtGitHub": "GitHub 上的源代码"
+  "sourceCodeAtGitHub": "GitHub 上的源代码",
+  "sponsorLabel": "赞助",
+  "sponsorSupporters": "最近的支持者",
+  "sponsorAnonymous": "某人",
+  "sponsorLead": "“{app}”是我一个人开发的，没有资金支持。所有人都可以免费使用，我也希望能一直免费下去。",
+  "sponsorAsk": "如果“{app}”对你有帮助，打赏能让我有时间继续改进它。",
+  "sponsorHowTo": "如何打赏",
+  "sponsorStep1": "点击下方的任一按钮。",
+  "sponsorStep2": "选择金额。",
+  "sponsorStep3": "用银行卡付款，无需注册。",
+  "sponsorKofi": "单次打赏或按月支持",
+  "sponsorOfuse": "留言打赏",
+  "sponsorCompany": "也欢迎企业赞助。",
+  "sponsorCompanyHint": "请发邮件至mkpoli@mkpo.li。",
+  "sponsorThanks": "谢谢你使用“{app}” 💗"
 }

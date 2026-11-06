@@ -10,5 +10,19 @@
   "licenseOfDataLinkLabel": "CC0 1.0 세계 공중",
   "licenseOfCode": "이 웹사이트의 소스 코드는 $$license$$에 따라 라이선스가 부여됩니다.",
   "licenseOfCodeLinkLabel": "0 조건 BSD 라이선스",
-  "sourceCodeAtGitHub": "GitHub에서 소스 코드 보기"
+  "sourceCodeAtGitHub": "GitHub에서 소스 코드 보기",
+  "sponsorLabel": "후원",
+  "sponsorSupporters": "최근 후원자",
+  "sponsorAnonymous": "누군가",
+  "sponsorLead": "“{app}”는 별도의 자금 지원 없이 혼자 만들고 있어요. 누구나 무료로 쓸 수 있고, 앞으로도 계속 무료로 제공하고 싶어요.",
+  "sponsorAsk": "“{app}”가 유용하다면 가볍게 후원해 주세요. 꾸준히 개선하는 데 시간을 더 쓸 수 있어요.",
+  "sponsorHowTo": "후원 방법",
+  "sponsorStep1": "아래 버튼 중 하나를 눌러 주세요.",
+  "sponsorStep2": "금액을 선택해 주세요.",
+  "sponsorStep3": "카드로 결제하면 돼요. 회원가입은 필요 없어요.",
+  "sponsorKofi": "일회성 또는 매월 정기 후원",
+  "sponsorOfuse": "메시지와 함께 후원",
+  "sponsorCompany": "기업도 후원할 수 있어요.",
+  "sponsorCompanyHint": "mkpoli@mkpo.li로 연락해 주세요.",
+  "sponsorThanks": "“{app}”를 사용해 주셔서 고마워요 💗"
 }
